@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Daily Fitness Tracker</string>
+    <string name="dailyFitnessTracker">Daily Fitness Tracker</string>
+    <string name="stepsTaken">Enter your steps</string>
+    <string name="calculate_button_text">Calculate Calories Burned</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="back">Back</string>
+    <string name="calculate">Calculate</string>
+    <string name="calories_burned_0">Calories Burned: 0</string>
+    <string name="enter_your_weigh_kg">Enter your weigh (kg)</string>
+</resources>
