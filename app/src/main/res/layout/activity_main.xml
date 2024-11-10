@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff00"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="@string/dailyFitnessTracker"
+        android:textAllCaps="false"
+        android:textColor="#607D8B"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/steps_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="44dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/stepsTaken"
+        android:inputType="number"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#2E7D32"
+        android:textSize="24sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/calculate_calories_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="#000000"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:text="@string/calculate_button_text"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>
